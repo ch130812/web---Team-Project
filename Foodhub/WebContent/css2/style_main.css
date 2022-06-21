@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+.conA {
+    height: 400px;
+}
+
+.slide {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url(../img/main1.jpg);
+    animation: slide_img_1 15s infinite;
+}
+
+.img2 {
+    background-image: url(../img/main2.jpg);
+    animation: slide_img_2 15s infinite;
+}
+
+.img3 {
+    background-image: url(../img/main3.jpg);
+    animation: slide_img_3 15s infinite;
+}
+
+@keyframes slide_img_1 {
+    0% {
+        opacity: 1;
+    }
+
+    12% {
+        opacity: 1;
+    }
+
+    23% {
+        opacity: 1;
+    }
+
+    34% {
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 0;
+    }
+
+    56% {
+        opacity: 0;
+    }
+
+    67% {
+        opacity: 0;
+    }
+
+    78% {
+        opacity: 0;
+    }
+
+    89% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slide_img_2 {
+    0% {
+        opacity: 0;
+    }
+
+    12% {
+        opacity: 0;
+    }
+
+    23% {
+        opacity: 0;
+    }
+
+    34% {
+        opacity: 1;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    56% {
+        opacity: 1;
+    }
+
+    67% {
+        opacity: 0;
+    }
+
+    78% {
+        opacity: 0;
+    }
+
+    89% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide_img_3 {
+    0% {
+        opacity: 0;
+    }
+
+    12% {
+        opacity: 0;
+    }
+
+    23% {
+        opacity: 0;
+    }
+
+    34% {
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 0;
+    }
+
+    56% {
+        opacity: 0;
+    }
+
+    67% {
+        opacity: 1;
+    }
+
+    78% {
+        opacity: 1;
+    }
+
+    89% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.conB {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.conB_title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.conB_container {
+    display: flex;
+    justify-content: center;
+}
+
+.conB_small_container {
+    margin-left: 70px;
+    margin-right: 70px;
+    transition: 0.1s linear;
+}
+
+.conB_small_container:hover {
+    transform: scale(1.2);
+}
+
+.conB_small_container .conB_icon {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.conB_small_container .conB_content {
+    text-align: center;
+}
+
+
+.conB_small_container h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.conB_small_container p {
+    font-size: 15px;
+}
